@@ -1,0 +1,189 @@
+<!Doctype html>
+<html>
+<head>
+<title>2Exim</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../TOOL/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../TOOL/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../TOOL/css/style.css">
+<script src="../TOOL/js/jquery-1.12.1.min.js"></script>
+<script src="../TOOL/js/bootstrap.min.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />-->
+<script>
+	$(document).ready(function(e) {
+        
+    });
+</script>
+</head>
+<body>
+<div class="container-fluid">
+  <main>
+    <section>
+      <div class="row">
+        <div class="container">
+          <div class="col-md-5 hidden-xs"></div>
+          <div class="col-md-4">
+            <ul>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Русский</a></li>
+              <li><a href="#">Türkçe</a></li>
+              <li><a href="#">العربية</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <form class="navbar-form navbar-left">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit"> <i class="glyphicon glyphicon-search"></i> </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="container">
+          <header class="bs-docs-nav navbar navbar-static-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a href="#" class="navbar-brand"><img src="../TOOL/images/logo.png" alt=""></a> </div>
+              <nav class="collapse navbar-collapse" id="bs-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li> <a href="#">Home</a> </li>
+                  <li> <a href="#">About us</a> </li>
+                  <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Products <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Energy-Mineral-Metallurgy-Chemical-Petrochemical</a></li>
+                      <li><a href="#">Construction-power and telecommunication equipment</a></li>
+                      <li><a href="#">Home appliances, Electronics and Lights</a></li>
+                      <li><a href="#">Food, Agriculture, Animal Husbandry</a></li>
+                      <li><a href="#">Handicrafts-Gifts-Sports-Play and Entertainment</a></li>
+                    </ul>
+                  </li>
+                  <li> <a href="#">Other services</a> </li>
+                  <li><a href="#">Order</a></li>
+                  <li><a href="#">News & events</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="container"> 
+          
+          <!--<div id="wowslider-container0">
+            <div class="ws_images">
+              <ul>
+                <li><img src="data0/images/1.jpg" alt="slide 1" title="slide 1" id="wows0_0"/></li>
+                <li><a href="http://wowslider.com"><img src="data0/images/3.jpg" alt="wowslideshow" title="slide 2" id="wows0_1"/></a></li>
+                <li><img src="data0/images/5.jpg" alt="slide 3" title="slide 3" id="wows0_2"/></li>
+              </ul>
+            </div>
+            <div class="ws_bullets">
+              <div> <a href="#" title="slide 1"><span><img src="data0/tooltips/1.jpg" alt="slide 1"/>1</span></a> <a href="#" title="slide 2"><span><img src="data0/tooltips/3.jpg" alt="slide 2"/>2</span></a> <a href="#" title="slide 3"><span><img src="data0/tooltips/5.jpg" alt="slide 3"/>3</span></a> </div>
+            </div>
+            <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+            <div class="ws_shadow"></div>
+          </div>
+          <script type="text/javascript" src="engine0/wowslider.js"></script> 
+          <script type="text/javascript" src="engine0/script.js"></script>--> 
+           </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="container">
+          <div class="col-lg-4">
+            <h2>ABOUT ARAMI GROUP</h2>
+            <p>With several years of experience in supplying, exporting and importing agricultural products such as dried nuts, dried fruits, grains, oil seeds, Arami Group started its extensive business in 2002. The company guarantees to provide its customers with hygienic excellent products at competitive prices. With an efficient management system, its dedicated personnel and based on customer orientation and regular improvement, Arami Group has been... </p>
+            <button class="btn btn-default btn-block">READ MORE</button>
+          </div>
+          <div class="col-lg-4"> <img src="../TOOL/images/export-to-countries.png" alt=""> </div>
+          <div class="col-lg-4">
+            <h2>NEWS & EVENTS</h2>
+            <h3>Visit us at SIAL PARIS 2014</h3>
+            <p>Arami Group , Has Participate at SIAL Food exhibition as exhibitor under name of MESE Co.
+              we will glad to meet you at our booth there in Paris that will be held from 19 Oct - 23 Oct 2014...</p>
+            <button class="btn btn-default btn-block">READ MORE</button>
+            <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page 
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="Food week korea 2015" title="Food week korea 2015" id="wows1_0"/></li>
+		<li><img src="data1/images/4.jpg" alt="Visist us at sail paris 2014" title="Visist us at sail paris 2014" id="wows1_1"/></li>
+		<li><img src="data1/images/2.jpg" alt="Ananuga 2013" title="Ananuga 2013" id="wows1_2"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/3.jpg" alt="image slider" title="visist us at anunga 2015" id="wows1_3"/></a></li>
+		<li><img src="data1/images/5.jpg" alt="products" title="products" id="wows1_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Food week korea 2015"><span><img src="data1/tooltips/1.jpg" alt="Food week korea 2015"/>1</span></a>
+		<a href="#" title="Visist us at sail paris 2014"><span><img src="data1/tooltips/4.jpg" alt="Visist us at sail paris 2014"/>2</span></a>
+		<a href="#" title="Ananuga 2013"><span><img src="data1/tooltips/2.jpg" alt="Ananuga 2013"/>3</span></a>
+		<a href="#" title="visist us at anunga 2015"><span><img src="data1/tooltips/3.jpg" alt="visist us at anunga 2015"/>4</span></a>
+		<a href="#" title="products"><span><img src="data1/tooltips/5.jpg" alt="products"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">image slider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>--> 
+            <script type="text/javascript" src="engine1/wowslider.js"></script> 
+            <script type="text/javascript" src="engine1/script.js"></script> 
+            <!-- End WOWSlider.com BODY section --> 
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12"> <img src="../TOOL/images/bottom-main-header.png" alt=""> </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3"> <a href="#"> <img src="../TOOL/images/products/1.jpg" alt="">
+            <p>Rotary Oven</p>
+            </a> </div>
+          <div class="col-lg-3"> <a href="#"> <img src="../TOOL/images/products/2.jpg" alt="">
+            <p>Bread Slicer Machine</p>
+            </a> </div>
+          <div class="col-lg-3"> <a href="#"> <img src="../TOOL/images/products/3.jpg" alt="">
+            <p>Dough Moulder</p>
+            </a> </div>
+          <div class="col-lg-3"> <a href="#"> <img src="../TOOL/images/products/4.jpg" alt="">
+            <p>Portable Oven</p>
+            </a> </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-11">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">
+                <RAISINS/a>
+              </li>
+              <li><a href="#">DATES</a></li>
+              <li><a href="#">PISTACHIOS</a></li>
+              <li><a href="#">OTHER PRODUCTS</a></li>
+              <li><a href="#">OTHER SERVICES</a></li>
+              <li><a href="#">EXPORT</a></li>
+              <li><a href="#">NEWS & EVENTS</a></li>
+              <li><a href="#">ORDER</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <p>© ARAMI Group. all rights reserved.</p>
+          </div>
+          <div class="col-lg-1"> <a href="#"></a> </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

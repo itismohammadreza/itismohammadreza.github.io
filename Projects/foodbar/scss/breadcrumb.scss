@@ -1,0 +1,350 @@
+/* Home Banner Area css
+============================================================================================ */
+.home_banner {
+    position: relative;
+    @media (max-width: 991px) {
+        height: auto;
+    }
+    .full_height {
+        min-height: 100vh
+    }
+    .banner_left {
+        background: $secondaryColor;
+        height: 100vh;
+        padding: 0 16%;
+        @media (max-width: 480px) {
+            padding-top: 150px;
+        }
+        h1 {
+            font-size: 60px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+            font-weight: 300;
+            @media (max-width: 480px) {
+                font-size: 36px;
+            }
+        }
+        p {
+            max-width: 510px;
+            font-weight: 400;
+        }
+        .main_btn {
+            margin-top: 40px;
+            max-width: 220px;
+        }
+    }
+    .banner_right {
+        .round-planet.planet {
+            top: 0;
+        }
+        .round-planet {
+            width: 540px;
+            height: 540px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 0;
+            border: 3px solid $secondaryColor;
+            @media (max-width: 991px) {
+                display: none;
+            }
+        }
+        .round-planet.planet2 {
+            width: 430px;
+            height: 430px;
+            left: 50%;
+        }
+        .round-planet.planet3 {
+            width: 320px;
+            height: 320px;
+            left: 50%;
+        }
+        .round-planet .shape.shape1 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 100px;
+            height: 100px;
+            background: url(../img/banner/shape1.png) no-repeat;
+            left: 75%;
+            top: -30%;
+            @include animation(glow 1s infinite alternate);
+        }
+        .round-planet .shape.shape2 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 80px;
+            height: 80px;
+            background: url(../img/banner/shape2.png) no-repeat;
+            left: 94%;
+            bottom: -11%;
+            @include animation(glow 1s infinite alternate);
+        }
+        .round-planet .shape.shape3 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 104px;
+            height: 80px;
+            background: url(../img/banner/shape3.png) no-repeat;
+            left: 127%;
+            top: 49%;
+            @include animation(glow 1s infinite alternate 3s);
+        }
+        .round-planet .shape.shape4 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 92px;
+            height: 70px;
+            background: url(../img/banner/shape4.png) no-repeat;
+            left: 92%;
+            top: 36%;
+            @include animation(glow 1s infinite alternate 2s);
+        }
+        .round-planet .shape.shape5 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 88px;
+            height: 86px;
+            background: url(../img/banner/shape5.png) no-repeat;
+            left: 95%;
+            top: 2%;
+            @include animation(glow 1s infinite alternate 1s);
+        }
+        .round-planet .shape.shape6 {
+            margin-top: -15px;
+            margin-left: -15px;
+            width: 100px;
+            height: 100px;
+            background: url(../img/banner/shape6.png) no-repeat;
+            left: 52%;
+            bottom: -58%;
+            @include animation(glow 1s infinite alternate);
+        }
+        .round-planet .shape {
+            border-radius: 50%; // top: 50%;
+            left: 50%;
+            position: absolute;
+        }
+        @include keyframes (glow) {
+            0% {
+                opacity: .1;
+            }
+            50% {
+                opacity: .5;
+            }
+            1000% {
+                opacity: .1;
+            }
+        }
+    }
+    .face-img {
+        position: absolute;
+        width: 17%;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%, -50%));
+        @media (max-width: 991px) {
+            display: none;
+        }
+    }
+}
+
+/* Home Slider Area css
+============================================================================================ */
+.home_slider{
+	.swiper-slide{
+		position: relative;
+		.slider_text{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 5;
+			opacity: 0;
+            transition: all 4s ease;
+            text-align: center;
+            h1 {
+                text-transform: capitalize;
+                color: #ffffff;
+                font-size: 80px;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+            p {
+                color: #ffffff;
+                max-width: 516px;
+                margin: 0 auto;
+                font-size: 14px;
+                margin-bottom: 50px;
+            }
+		}
+		&.swiper-slide-active{
+			.slider_text{
+				opacity: 1;
+			}
+		}
+	}
+}
+/* End Home Banner Area css
+============================================================================================ */
+
+// Blog Banner
+.blog_banner {
+    min-height: 660px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 0px;
+    .banner_inner {
+        background: #04091e;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        min-height: 660px;
+        z-index: 1;
+        .overlay {
+            background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+            opacity: .5;
+            height: 125%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            z-index: -1;
+        }
+        .blog_b_text {
+            max-width: 700px;
+            margin: auto;
+            color: #fff;
+            h2 {
+                font-size: 60px;
+                font-weight: bold;
+                line-height: 66px;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 16px;
+                margin-bottom: 35px;
+            }
+            .white_bg_btn {
+                line-height: 42px;
+                padding: 0px 45px;
+            }
+        }
+    }
+}
+
+.banner_box {
+    max-width: 1620px;
+    margin: auto;
+}
+
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 400px;
+    .banner_inner {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        min-height: 400px;
+        background: $secondaryColor;
+        z-index: 1;
+        .banner_content {
+            h1 {
+                color: #000000;
+                margin-bottom: 0px;
+                font-weight: 300;
+                margin-top: 30px;
+            }
+            .page_link {
+                a {
+                    font-size: 14px;
+                    color: $pfont;
+                    font-family: $rob;
+                    margin-right: 32px;
+                    position: relative;
+                    &:before {
+                        content: "\e87a";
+                        position: absolute;
+                        right: -25px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                    &:last-child {
+                        margin-right: 0px;
+                        &:before {
+                            display: none;
+                        }
+                    }
+                    &:hover {
+                        color: $baseColor;
+                    }
+                }
+            }
+        }
+        .shape.shape1 {
+            background: url(../img/banner/shape3.png) no-repeat;
+            left: -10px;
+            top: 0px;
+            @include animation(glow 1s infinite alternate .5s);
+            @media (max-width: 1440px) {
+                left: 28%;
+                top: 22%;
+            }
+        }
+        .shape.shape2 {
+            background: url(../img/banner/shape7.png) no-repeat;
+            left: 5%;
+            top: 60%;
+            @include animation(glow 1s infinite alternate 1s);
+        }
+        .shape.shape3 {
+            background: url(../img/banner/shape4.png) no-repeat;
+            left: 30%;
+            top: 70%;
+            @include animation(glow 1s infinite alternate 1.5s);
+        }
+        .shape.shape4 {
+            background: url(../img/banner/shape1.png) no-repeat;
+            right: 28%;
+            top: 100px;
+            @include animation(glow 1s infinite alternate 2s);
+        }
+        .shape.shape5 {
+            width: 100px;
+            height: 40px;
+            background: url(../img/banner/shape8.png) no-repeat;
+            right: 25%;
+            bottom: 0px;
+            @include animation(glow 1s infinite alternate 2.5s);
+        }
+        .shape.shape6 {
+            background: url(../img/banner/shape9.png) no-repeat;
+            right: 12%;
+            top: 40%;
+            @include animation(glow 1s infinite alternate 3s);
+        }
+        .shape.shape7 {
+            width: 45px;
+            background: url(../img/banner/shape10.png) no-repeat;
+            right: 0px;
+            bottom: 5%;
+            @include animation(glow 1s infinite alternate 3.5s);
+        }
+        .shape {
+            width: 100px;
+            height: 120px;
+            position: absolute;
+            @media (max-width: 380px) {
+                display: none;
+            }
+        }
+    }
+}
+
+/* End Home Banner Area css
+============================================================================================ */

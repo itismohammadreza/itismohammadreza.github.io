@@ -1,0 +1,242 @@
+/* Start top-dish Area 
+============================================================================================ */
+.top_dish_area {
+	padding: 180px 0 120px;
+	@media (max-width: 992px) {
+		padding: 50px 0;
+	}
+}
+.single_dish{
+	@media (max-width: 992px) {
+		margin-bottom: 50px;
+	}
+	.thumb{
+		overflow:hidden;
+	}
+	h4 {
+		font-size: 21px;
+		font-weight: 300;
+		text-transform: capitalize;
+		margin: 30px 0 20px;
+	}
+	h4,img{
+		@include transition();
+	}
+	&:hover{
+		cursor:pointer;
+		h4{
+			color:$baseColor;
+		}
+		h5 {
+			font-weight: 700;
+		}
+	}
+	@media(max-width:800px){
+		margin-bottom:40px;
+	}
+}
+/* End top-dish Area 
+============================================================================================ */
+
+/* Story Area css
+============================================================================================ */
+.about_story_area{
+	overflow: hidden;
+}
+.story_inner{
+	.col-lg-6, .col-lg-5{
+		vertical-align: middle;
+		align-self: center;
+	}
+	.story_text{
+		max-width: 390px;
+		h2{
+			color: $dip;
+			font-size: 48px;
+			line-height: 54px;
+			font-weight: 300;
+			margin-bottom: 30px;
+			@media (max-width: 991px) {
+				font-size: 36px;
+				margin-bottom: 0px;
+            }
+		}
+		hr {
+			margin: 0px 0px 30px;
+			// margin-bottom: 30px;
+			max-width: 150px;
+			height: 2px;
+			background: #f42f2c;
+			display: none;
+			@media (max-width: 991px) {
+                display: block;
+            }
+		}
+		p{
+			margin-bottom: 25px;
+		}
+		.main_btn{
+			margin-top: 25px;
+		}
+	}
+	.story_img{
+		position: relative;
+	}
+	.story_img2{
+		position: relative;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		img{
+			position: relative;
+			left: -290px;
+			width: auto;
+			max-width: none;
+		}
+		&:before{
+			content: "";
+			background: #f8f8f9;
+			position: absolute;
+			left: -190px;
+			top: 0px;
+			max-width: 550px;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+		}
+	}
+}
+/* End Story Area css
+============================================================================================ */
+
+/* Menu List Area css
+============================================================================================ */
+.menu_area{
+	overflow: hidden;
+	background: $secondaryColor;
+	padding: 180px 0 120px;
+	@media (max-width: 992px) {
+		padding: 50px 0;
+	}
+	.round-planet  {
+		border: 3px solid rgba(234, 234, 234, 0.52);
+	}
+	&.white {
+		background: #ffffff;
+	}
+}
+.menu_inner{
+	.col-lg-5{
+		vertical-align: middle;
+		align-self: center;
+	}
+	.menu_list{
+		height: 100%;
+		margin-right: -15px;
+		padding-right: 60px;
+		@media (max-width: 1160px) {
+			padding-right: 0;
+			margin-bottom: 25px;
+		}
+		&:last-child {
+			margin-left: 0;
+		}
+		h3{
+			color: $dip;
+			font-size: 48px;
+		}
+		p{
+			margin-bottom: 0px;
+			font-size: 14px;
+		}
+		.list{
+			li{
+				padding-bottom: 30px;
+				&:last-child {
+					padding-bottom: 0;
+				}
+				h4{
+					font-size: 21px;
+					margin-bottom: 12px;
+					font-weight: 300;
+					@media (max-width: 420px) {
+						font-size: 16px;
+					}
+					&:after {
+						margin-right: 15px;
+						content: '---------------------------';
+						float: right;
+						color: $pfont;
+						@media (max-width: 1024px) {
+							content: '---------------------------------------------------';
+						}
+						@media (max-width: 992px) {
+							content: '';
+							float: none;
+						}
+					}
+					span{
+						float: right;
+						font-family: $rob;
+						font-weight: 700;
+					}
+				}
+				p{
+					@media (max-width: 420px) {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+	.menu_img{
+		margin-left: -98px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+/* End Menu List Area css
+============================================================================================ */
+
+
+/* Gallery Area css
+============================================================================================ */
+.gallery_area{
+	padding: 180px 0 120px;
+	@media (max-width: 992px) {
+		padding: 50px 0;
+	}
+}
+.single-gallery {
+	position: relative;
+	margin-bottom: 30px;
+	&:hover {
+		cursor: pointer;
+		.overlay {
+			background: rgba(255, 255, 255, 0.7);
+		}
+		.content {
+			i {
+				opacity: 1;
+			}
+		}
+	}
+	.overlay {
+		@include transition();
+	}
+	.content {
+		max-height: 35px;
+		max-width: 35px;
+		@extend .overlay;
+		left: 50%;
+		top: 50%;
+		@include transform(translate(-50%, -50%));
+		i {
+			font-size: 35px;
+			color: #000000;
+			opacity: 0;
+			@include transition();
+		}
+	}
+}
+/* Gallery Area css
+============================================================================================ */

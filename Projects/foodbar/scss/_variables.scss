@@ -1,0 +1,66 @@
+/*font Variables*/
+$oswald: 'Oswald', serif;
+$rob: 'Roboto', sans-serif;
+
+
+/*Color Variables*/
+$baseColor: #f42f2c;
+$secondaryColor: #f9f9ff;
+$dip: #222222;
+$pfont: #777777;
+$gray: #dddddd;
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300, 500, 700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+@mixin transform($transform){
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -ms-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+// Animation
+@mixin animation ($args) {
+  -webkit-animation: $args;
+     -moz-animation: $args;
+       -o-animation: $args;
+          animation: $args;
+}
+
+// Keyframe
+@mixin keyframes ( $animation-name ) {
+  @-webkit-keyframes #{$animation-name} {
+      @content;
+  }
+  @-moz-keyframes #{$animation-name}  {
+      @content;
+  }
+  @-o-keyframes #{$animation-name} {
+      @content;
+  }
+  @keyframes #{$animation-name} {
+      @content;
+  }
+}
+
+
+
+
