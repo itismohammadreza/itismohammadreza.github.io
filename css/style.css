@@ -12919,12 +12919,7 @@ textarea.form-control {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     border-radius: 4px;
-}
-
-@media (max-width: 1199.98px) {
-    .contact-section .box {
-        margin-bottom: 30px;
-    }
+    margin-bottom: 30px;
 }
 
 .contact-section .box .icon {
@@ -13147,7 +13142,7 @@ textarea.form-control {
     stroke-linecap: round;
 }
 
-.about-info{
+.about-info {
     word-break: break-word;
 }
 
