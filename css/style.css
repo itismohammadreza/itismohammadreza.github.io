@@ -12218,6 +12218,8 @@ h1, h2, h3, h4, h5,
 .ftco-partner .partner {
     display: block;
     padding: 0 20px;
+    max-width: 150px;
+    margin: auto;
 }
 
 @media (max-width: 575.98px) {
