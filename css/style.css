@@ -11716,7 +11716,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand:after {
     position: absolute;
     top: calc(50% - 2px);
-    left: -7px;
+    left: -6px;
     width: 36px;
     height: 36px;
     content: '';
@@ -13146,6 +13146,14 @@ textarea.form-control {
     word-break: break-word;
 }
 
+.navbar-brand {
+    font-size: 18px !important;
+}
+
+.navbar-brand span {
+    font-size: 26px;
+}
+
 @media (max-width: 380px) {
     .mouse {
         bottom: 70px;
@@ -13154,16 +13162,6 @@ textarea.form-control {
     .mouse-icon {
         width: 60px;
         height: 60px;
-    }
-
-    .navbar-brand {
-        font-size: 17px !important;
-    }
-
-    .navbar-brand:after {
-        left: -6px;
-        width: 26px;
-        height: 26px;
     }
 
     .slider-text h1,
