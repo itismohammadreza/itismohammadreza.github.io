@@ -12072,6 +12072,7 @@ h1, h2, h3, h4, h5,
     width: 100%;
     position: relative;
     z-index: 1;
+    background-position: 37% center;
 }
 
 .ftco-about ul.about-info {
@@ -12754,7 +12755,7 @@ textarea.form-control {
 .user-img {
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 37% center;
+    background-position: center center;
 }
 
 .image-popup {
