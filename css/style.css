@@ -12222,7 +12222,7 @@ h1, h2, h3, h4, h5,
     margin: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
     .ftco-partner .partner {
         margin-bottom: 40px;
     }
